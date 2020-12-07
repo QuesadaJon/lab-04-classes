@@ -9,7 +9,7 @@
             ]
         }
     },
-    "parser": "@babel/eslint-parser",
+    "parser": "node_modules/babel-eslint",
     "env": {
         "es6": true,
         "node": true,

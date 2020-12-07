@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,12 +21,16 @@
   "homepage": "https://github.com/QuesadaJon/lab-04-classes#readme",
   "devDependencies": {
     "@types/jest": "^26.0.16",
-    "eslint": "^7.14.0",
-    "jest": "^26.6.3"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "jest": "^26.6.3",
     "nodemon": "^2.0.6",
     "supertest": "^6.0.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "g": "^2.0.1"
   }
 }
